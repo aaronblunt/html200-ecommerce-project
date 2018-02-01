@@ -1,12 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  width: 95%;
+  margin: auto;
+}
+
+.navbar-header {
+  color: royalblue;
+}
+
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.imgHeader {
+  float: left;
+}
+
+.row1 {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.row2 {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+aside {
+  float: left;
+}
+
+.container {
+  padding: .5rem;
+}
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0% 1% 1%;
+}
+
+.row {
+  width: 90%;
+  margin: auto;
+}
+
+div.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+div[class^='col-sm-4'] {
+  float: left;
+  background-color: white;
+  /*border: 1px solid black;*/
+}
+
+div.col-sm-4{
+  width: 33%;
+  padding: 1.5rem;
+}
+
+div img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: .9rem;
 }
 
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #2d2d2d;
+}
+
+aside {
+  width: 80%;
+  padding: 2rem 2rem 2rem 3rem;
+
 }
 
 /* TODO: size images manually so this is not necessary */
@@ -23,11 +99,15 @@ nav a:hover {
 /**************** HERO *****************/
 
 header img {
-  max-height: 6rem;
+  max-height: 8rem;
+  margin-top: .19rem;
 }
 
 h1 .logo-w {
-  font-size: 3.5rem;
+  font-size: 4.25rem;
+  letter-spacing: -.2rem;
+  font-family: 'Anton', sans-serif;
+  color: royalblue;
 }
 
 /**************** ASIDE ****************/
@@ -47,11 +127,16 @@ section {
   padding: 0 .75rem;
 }
 
+h1 {
+  margin-top: 5rem;
+}
+
 h2 {
-  padding-top: 1.5rem;
-  font-size: 2rem;
+  padding: .3rem;
+  font-size: 2.3rem;
   text-align: center;
   color: #2d2d2d;
+  font-weight: bold;
 }
 
 h3 {
