@@ -1,6 +1,18 @@
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
 // This will be best accomplished after we do lesson 09.
+
+function capture(){
+  event.preventDefault()
+  console.log("form submitted")
+  
+  var theEmail = document.custEmail.name.value
+  
+  console.log("Thank you, " + theEmail + ", time to start saving the big bucks!")
+}
+
+
+
 var products = [
   {
     "name": "Reversible Plaid",
