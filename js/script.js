@@ -6,7 +6,7 @@ function capture(){
   event.preventDefault()
   console.log("form submitted")
   
-  var theEmail = document.custEmail.name.value
+  var theEmail = document.custEmail.email.value
   
   console.log("Thank you, " + theEmail + ", time to start saving the big bucks!")
 }
