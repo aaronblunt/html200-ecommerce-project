@@ -62,3 +62,19 @@ var products = [
   }
 ]
 
+function addDelete(productName) {
+   // var products is array, added three items
+   var products = [“Reversible Plaid”, “Fringed Plaid”, “Northern Lights”]
+
+   // Check if product exists. If not, add to it, otherwise delete it
+   if(i == -1) {
+    products.push(prodName)
+    console.log("Added product, number of products is: " + answers.length);
+    } 
+  // If it's already there, find and remove it
+  else {
+    answers.splice(i,1)
+    console.log("Removed product, number of products is: " + answers.length);
+    }
+   
+}
